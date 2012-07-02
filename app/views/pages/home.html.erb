@@ -1,0 +1,29 @@
+<h1>Pages de test Ruby On Rails</h1>
+
+<ul>
+<li>Addition <%=1+2%> </li>
+<li>COncat <%= "cow" + "boy"%> </li>
+<li> L'heure dans une heure <%= 1.hour.from_now %></li>
+</ul>
+
+<ul>
+<li>
+<% 4.times do %>
+yes --
+<% end %>
+!!!
+</li>
+
+<li>
+<% 10.downto(0) do |count| -%>
+<%= count %> ...
+<%end%>
+Goooooooo au park
+</li>
+
+<li>
+Il est <%= @time %> !
+</li>
+
+<p>Sortir : <%= link_to 'bye', 'goodbye' %></p>
+
